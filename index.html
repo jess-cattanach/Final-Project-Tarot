@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Metamorphous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link href="styles/main.css" rel="stylesheet"> 
+    <title>Beginner's Guide to Tarot</title>
+</head>
+<body>
+<h1>A First Step Into Tarot</h1>
+
+<h2>Learn the Basic Information!</h2>
+<p> Around the 19th century, the tarot card set began to be associated with divination and the occult and evolved into what we know it as today. Lots of sites have overwhelming information, this one has compressed it to be as simple as possible!</p>
+
+<p>   The deck consists of 78 cards, the major and minor arcana. The major arcana consists of 22 named cards. The minor arcana consists of four suits with 14 cards each. The Rider-Waite deck is the most well known and recognizable deck, all images below are derived from this set.</p>
+
+<h2>Why Practice Tarot?</h2>
+<p>   Tarot is apart of diviniation work, meaning it's used to uncover hidden significance or cause. In this case, tarot falls under "fortune telling," but they do not necessarily predict the future. Tarot can be used to look for insight and reassurance into past, present, and future events. They are best used for clarity and self-reflection.</p>
+
+<!--audio section-->
+<div id="meditate">
+<h3>Wanna Meditate?</h3>
+<p>   Some practicioners find it helpful to play some meditation music before or as they read. It can help with concentration and calmness of the mind to enable clearer, more acurate readings. For novices especially, it can aid you in listening and connecting to your intuition!</p>
+<p>Here is an example of such guiding music:</p>
+<audio controls preload="auto"> 
+    <source src="audio/meditation-music.mp3" type="audio/mp3"> 
+    <source src="audio/meditation-music.ogg" type="audio/ogg"> 
+</audio> 
+<footer><a href="https://www.pond5.com/royalty-free-music/item/136304431-zen-meditation">Stock Music</a> provided by PolkadotFlowersMusic, from <a href="https://www.pond5.com/">Pond5</a> 
+</footer>
+</div>
+
+
+<!--major arcana slider-->
+<h2>Introducing the Major Arcana</h2>
+<p>   The major arcana focus in on the bigger picture, providing a broader sense of guidance. They make up the core of the deck, with each card having a pronounced significance. These cards haver deeper and more complex meanings and often represent large thematic influences in your life.</p>
+
+<footer>Scroll through the major arcana, click for more information!</footer>
+<!--slider starts here-->
+
+<div class="container">
+<div class="slider-wrapper">
+<button id="prev-slide" class="slide-button material-symbols-rounded">
+ chevron_left</button>
+      <ul class="image-list">
+        <li><img id="theFool" class="image-item" src="images/thefool.jpg" alt="The Fool tarot card"></li>
+        <li><img id="theMagician" class="image-item" src="images/themagician.jpg" alt="The Magician tarot card"></li>
+        <li><img id="highPriestess" class="image-item" src="images/highpriestess.jpg" alt="The High Priestess tarot card"></li>
+        <li><img id="theEmpress" class="image-item" src="images/theempress.jpg" alt="The Empress tarot card"></li>
+        <li><img id="theEmperor" class="image-item" src="images/theemperor.jpg" alt="The Emperor tarot card"></li>
+        <li><img id="theHierophant" class="image-item" src="images/thehierophant.jpg" alt="The Hierophant tarot card"></li>
+        <li><img id="theLovers" class="image-item" src="images/thelovers.jpg" alt="The Lovers tarot card"></li>
+        <li><img id="theChariot" class="image-item" src="images/thechariot.jpg" alt="The Chariot tarot card"></li>
+        <li><img id="justice" class="image-item" src="images/justice.jpg" alt="Justice tarot card"></li>
+        <li><img id="theHermit" class="image-item" src="images/thehermit.jpg" alt="The Hermit tarot card"></li>
+        <li><img id="wheelFortune" class="image-item" src="images/wheeloffortune.jpg" alt="The Wheel of Fortune tarot card"></li>
+        <li><img id="strength" class="image-item" src="images/strength.jpg" alt="Strength tarot card"></li>
+        <li><img id="hangedMan" class="image-item" src="images/hangedman.jpg" alt="The Hanged Man tarot card"></li>
+        <li><img id="death" class="image-item" src="images/death.jpg" alt="Death tarot card"></li>
+        <li><img id="temperance" class="image-item" src="images/temperance.jpg" alt="Temperance tarot card"></li>
+        <li><img id="theDevil" class="image-item" src="images/thedevil.jpg" alt="The Devil tarot card"></li>
+        <li><img id="theTower" class="image-item" src="images/thetower.jpg" alt="The Tower tarot card"></li>
+        <li><img id="theStar" class="image-item" src="images/thestar.jpg" alt="The Star tarot card"></li>
+        <li><img id="theMoon" class="image-item" src="images/themoon.jpg" alt="The Moon tarot card"></li> 
+        <li><img id="theSun" class="image-item" src="images/thesun.jpg" alt="The Sun tarot card"></li>
+        <li><img id="judgement" class="image-item" src="images/judgement.jpg" alt="Judgement tarot card"></li>
+        <li><img id="theWorld" class="image-item" src="images/theworld.jpg" alt="The World tarot card"></li>
+      </ul>
+<button id="next-slide" class="slide-button material-symbols-rounded">
+chevron_right</button>
+</div>
+<div class="slider-scrollbar">
+<div class="scrollbar-track">
+<div class="scrollbar-thumb"></div>
+</div>
+</div>
+</div>
+
+
+
+<!--information on each card-->
+<div id="majorArcanaEx">
+<p id="theFoolEx" class="sliderEx">The Fool generally symbolizes letting go and being open to change and new experiences. The card is very carefree, but reversed can mean naivety recklessness.</p>
+
+<p id="theMagicianEx" class="sliderEx">The Magician lets you know to trust in yourself and your abilities, and to not be held back by self-doubt. As the name suggests, a reversed card can mean there are missed opportunities or malicious intentions and trickery around -- change is needed.</p>
+
+<p id="highPriestessEx" class="sliderEx">The High Priestess signifies the time for inner work and trust in your intuition rather than logic. When reversed, it signifies that you may be ignoring your intution for a more rational approach when the situation actually calls for an atypical response.</p>
+
+<p id="theEmpressEx" class="sliderEx">The Empress tells you to lay back the self-criticism and find some happiness in what you've accomplished. It's a call to be kinder to yourself. A reversed Empress can mean you're leaning on others too much, or neglecting your own needs in favor of others.</p>
+
+<p id="theEmperorEx" class="sliderEx">The Emperor is a call to action, letting you know it's time to organize yourself and think rationally. Draw on your abilities to get through. On the reversed, it points toward an unequal power balance in your life or a lack of self-discipline.</p>
+
+<p id="theHierophantEx" class="sliderEx">Also called the Pope, the Hierophant advises you to stay on course, develop yourself and your abilities, and have faith in the process of betterment. The reversed can signify a loss of flexibility in life or too much constraint.</p>
+
+<p id="theLoversEx" class="sliderEx">The Lovers can represent both a harmonious relationship in your life and a choice that needs to be thought on carefully. When reversed, it can mean a break in communication or a struggle with conflicts.</p>
+
+<p id="theChariotEx" class="sliderEx">The Chariot tells you to maintain control and confidence to emerge victorious in your endeavors. Follow the path you laid out, and all will end well. The opposite is true when reversed: you have a lack of focus and motivation. You're lacking the purposefulness needed.</p>
+
+<p id="justiceEx" class="sliderEx">Justice represents long-term effects from the outcomes of a situation. Your actions will be judged fairly and you must weigh your role in past events. A reversed Justice card can indicate lingering denial or guilt. Focus on the future: how can you right your wrongs and move forward?</p>
+
+<p id="theHermitEx" class="sliderEx">The Hermit calls for a time of inner searching on your own and isolated. Take this chance to reflect clear your mind. A warning presents itself when reversed: be careful of the dangers of your isolation as it may turn harmful.</p>
+
+<p id="wheelFortuneEx" class="sliderEx">The Wheel of Fortune is a reminder that life has ups and downs, and that inevitably you will find yourself on both sides -- again and again. While a reversed card could mean bad luck has been clinging to you, it's a nudge to let go and let the wheel spin.</p>
+
+<p id="strengthEx" class="sliderEx">The Strength card shows great resilience in your character, even during turbulent times. Strength reversed points to intense negative emotions either on the horizon or currently. Gain confidence and build up your fortitude.</p>
+
+<p id="hangedManEx" class="sliderEx">The Hanged Man is often an acceptance of your past blunders, sometimes through sacrifice. It can also mean a period of waiting. The reversed can reveal frustration regarding unequal gain compared to effort, or restlessness at a standstill.</p>
+
+<p id="deathEx" class="sliderEx">The Death card is one of the most feared and notorious because it's often taken literally. In reality, this card signifies the end of one era and the start of another. There will be a changing of the tides. Reversed, this card tells you you're clinging to past habits and need to let go.</p>
+
+<p id="temperanceEx" class="sliderEx">Temeperance tells you that you have a focused and clear vision, you've found peace in what happens to and around you. Temeperance in reverse means the opposite, that you're out of balance and it's causing negative emotions.</p>
+
+<p id="theDevilEx" class="sliderEx">The Devil symbolizes a void, being stuck in a feeling of emptiness and being unable to control yourself. In reverse it has a positive message: you have become aware and have broken free of the bad habits.</p>
+
+<p id="theTowerEx" class="sliderEx">Of all the cards pointing to change, the Tower fortells the greatest magnitude of it. It doesn't always have to be scary, change can be good. A Tower reversed can mean you feel as if a crisis is looming, but sometimes the pain can bring peace in turn.</p>
+
+<p id="theStarEx" class="sliderEx">The Star is the other end of a great change that you have powered through. There is renewed strength and energy. The Star reversed shows that you have lost hope and faith in something and now feel as if you are falling short of something once exciting.</p>
+
+<p id="theMoonEx" class="sliderEx">The Moon shows you that you might getting caught up in your own head or there are truths hidden away in a situation. Rely upon your intuition and let the moonlight guide you. In reverse, the Moon signifies the exit from the confusion, you have just battled and won the clouded mindset.</p>
+
+<p id="theSunEx" class="sliderEx">The Sun lives up to its name, symbolizing warmth and radiant energy flowing from you. Others are drawn to this energy, and you can share it if you like. When it's reversed, it means you have trouble finding the positive in situations.</p>
+
+<p id="judgementEx" class="sliderEx">The Judgement card focuses heavily on reflecting on oneself and your actions. It can mean a throughout self-insepction, an awakening, or a recognization of yourself and needs. In reverse, it can mean you doubt yourself and criticize too harshly.</p>
+
+<p id="theWorldEx" class="sliderEx">The World represents wholeness, often when there is great togetherness of factors. The feelings associated are completion and fullfilment. When reversed, it can mean that something is missing despite objective fullfilment. Reflect and figure out what it is.</p>
+</div>
+
+<!--minor arcana onclick-->
+<h2>A Peak Into the Minor Arcana</h2>
+
+<p>   The minor arcana cards consist of four suits: cups, pentacles, swords, and wands. There are 14 of each, ranging from ace to 10, then Page, Knight, Queen, and King. These cards generally reference everyday events and each suit deals with different topics.</p>
+
+<footer>Click each card to learn more about the suit!</footer>
+
+<div id="minorImages">
+<img id="cups" class="minorArcana" src="images/cups.jpg" alt="Ace of Cups Tarot Card">
+
+<img id="pentacles" class="minorArcana" src="images/pentacles.jpg" alt="Ace of Pentacles Tarot Card">
+
+<img id="swords" class="minorArcana" src="images/swords.jpg" alt="Ace of Swords Tarot Card">
+
+<img id="wands" class="minorArcana" src="images/wands.jpg" alt="Ace of Wands Tarot Card">
+</div>
+
+<div id="minorArcanaEx">
+<p id="cupsExplain" class="explain">The suit of cups typically relates to intuition, emotion, and relationships. They often refer to the inner mind, creativity, and relationships with those around us. However, they can also point to repressed emotions and being lost. A suit based around emotion, it's important to take note it'll be less logical.</p>
+
+<p id="pentExplain" class="explain">The suit of pentacles tackles the physical world, body, and nature itself. These cards usually relate to a longer term orientation of aspects such as career, financial stability, or household. Being a material heavy suit, they can also point out greed and jealousy.</p>
+
+<p id="swordExplain" class="explain">The suit of swords discusses intelligence, logic, and truth. These cards can lack empathy as they are a more blunt bunch. They can provide clarity of a situation but also intimidate and be double edged.</p>
+
+<p id="wandExplain" class="explain">The suit of wands deals with motivation, passion, and energy. This suit brings a fire for action and creativity. On the flip side, this suit can reveal recklessness and potential for danger.</p>
+</div>
+
+<!--ending notes, link to source html-->
+<footer>Sources, credits, and attributions for all content and images can be found <a href="source.html">here.</a> Background image designed by <a href="https://www.freepik.com/free-vector/vector-starry-border-holography-kids_33113436.htm#fromView=search&page=2&position=0&uuid=9da1429c-69bd-45a4-8ff6-b9e96208ffd4">Freepik.com.</a></footer>
+
+<!--scripts below-->
+<script src="scripts/slider.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
